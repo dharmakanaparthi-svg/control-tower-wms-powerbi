@@ -13,11 +13,12 @@ This Power BI Template App provides operational visibility into Warehouse Manage
 
 ### 1. Server Name
 Enter the SQL Server name in the following format:
-TECHNO-633\SQLDEV19
+vm-powerbidb.database.windows.net
+ 
 
 ### 2. Database Name
 Enter the database name:
-PALMS-HindwareBPD-Prod-28-05-2025
+hindwaredb
 
 ## Installation Steps
 1. Click the Template App installer link
