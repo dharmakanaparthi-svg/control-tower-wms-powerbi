@@ -20,17 +20,36 @@ vm-powerbidb.database.windows.net
 Enter the database name:
 hindwaredb
 
-## Installation Steps
-1. Click the Template App installer link
-2. Enter SQL Server and Database parameters
-3. Authenticate using SQL credentials
-4. Complete installation
-5. Configure gateway and refresh dataset
+Installation Steps:
+1. Download the app from Microsoft AppSource.
+2. Open Power BI Service or Power BI Desktop.
+3. Import the app from Apps > Get apps.
+4. Complete installation.
 
-## Troubleshooting
-- Ensure the gateway is online
-- Ensure firewall allows SQL connectivity
-- Verify credentials and permissions
+Configuration Steps:
+1. Open the installed app.
+2. Navigate to Settings.
+3. Provide required parameters such as:
+   - Server Name
+   - Database Name
+   - User Credentials (if applicable)
+4. Save the configuration.
+
+Connect Data:
+1. Select "Connect Data".
+2. Enter the required credentials.
+3. Validate the connection.
+4. Load data into the dashboard.
+
+Supported Data Sources:
+- SQL Server
+- Azure SQL Database
+- REST API (if applicable)
+
+Troubleshooting:
+- Ensure credentials are correct.
+- Verify firewall/network access.
+- Check gateway configuration if using on-premise data.
 
 ## Support
 For support, contact:
